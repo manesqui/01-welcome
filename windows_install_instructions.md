@@ -23,9 +23,11 @@
 * "License Agreement" → Agree to the terms and conditions.
 * "Select Installation Type" → Just Me (recommended).
 * "Choose Install Location" → Default is probably fine.  Make a note of where it goes.  In my case:
-   * C:\cygwin\home\\\<YOUR_USER_ID\>\Continuum\Anaconda3
+   * C:\cygwin64\home\\\<YOUR_USER_ID\>\Continuum\Anaconda3
 * "Advanced Installation Options" → just accept. "Install."  (Let it go.)
 * Learn about Anaconda cloud only if you feel like it (no).
+* Now, open up cygwin.  You will be at /home/<YOUR_USER_ID>/.  Type `which python`.  It will probably _not_ be the one you just installed.  Type (exactly) `echo 'export PATH=/home/<YOUR_USER_ID>/Continuum/Anaconda3:$PATH' >> ~/.bashrc`.
+   * What is this doing?  `echo` just 'parrots' the rest of the line.  `export PATH` is telling the system where to look for programs.  In this case, you're adding `.../Anaconda3` to the existing `$PATH`.  You are then placing these (`>>`) at the end of your preferences file, `~/.bashrc`.  
 
 # Atom Install.
 * Go to atom.io and download the Windows installer.  Launch it.  It is that simple.
