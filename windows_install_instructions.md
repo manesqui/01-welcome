@@ -15,7 +15,6 @@
 * "Resolving Dependencies" → Next.  (i.e., leave "Select required packages (RECOMMENDED)" checked.)
 * The setup will now start "spinning."  Give it some time.
 * "Installation Status and Create Icons" → Up to you ("Finish").  I do have the icons.
-* Launch "Anaconda Navigator" from the Start Menu.
 
 # Install Anaconda
 * Go to https://www.continuum.io/downloads.  Download and open the 64-bit installer.  (Don't give them your email!)
@@ -28,6 +27,7 @@
 * Learn about Anaconda cloud only if you feel like it (no).
 * Now, open up cygwin.  You will be at /home/<YOUR_USER_ID>/.  Type `which python`.  It will probably _not_ be the one you just installed.  Type (exactly) `echo 'export PATH=/home/<YOUR_USER_ID>/Continuum/Anaconda3:$PATH' >> ~/.bashrc`.
    * What is this doing?  `echo` just 'parrots' the rest of the line.  `export PATH` is telling the system where to look for programs.  In this case, you're adding `.../Anaconda3` to the existing `$PATH`.  You are then placing these (`>>`) at the end of your preferences file, `~/.bashrc`.  
+* Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.5.2 |Anaconda 4.1.1 ..."), and a Jupyter notebook with `./Continuum/Anaconda3/Scripts/jupyter-notebook.exe` (return).
 
 # Atom Install.
 * Go to atom.io and download the Windows installer.  Launch it.  It is that simple.
