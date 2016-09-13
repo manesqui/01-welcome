@@ -1,7 +1,7 @@
 # Assignment 1: Welcome to Python 
 
 ### Preliminaries/Setup
-* You will need to have a 'Terminal' set up on your computer.  If you're running a Mac, it _is_.  Just search for 'Terminal.'  If you have a Windows machine, you'll need to install cygwin or GitHub bash (**more detail!**)
+* You will need to have a 'Terminal' set up on your computer.  If you're running a Mac, it _is_ installed.  Just search for 'Terminal.'  If you have a Windows machine, you'll need to install cygwin.  Since the Windows install is a bit more finnicky, you can find additional instructions (here)[windows_install_instructions.md]. 
 * Get [Anaconda](https://www.continuum.io/downloads) fully set up on your computer.  If you now run your Terminal and type `python`, you should get a new command prompt, where you can test it out (`1 + 1`, `<Enter>`) and quit (`quit()` or `ctrl+D`).
 * Create a [student GitHub account](https://education.github.com/pack).  You will use this account to push (submit) all of your work.  You can then join this assignment, [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  (**Complete this: download the directory, etc.**)  Next Monday, we'll discuss `git`, why we're using it (spoiler: everyone does), and how to do all of this from the command line.
 * I encourage you to use [Atom](atom.io) as a text editor for your first assignment; it provides syntax highlighting that you will find useful.  If you want, you can delete it when you're done.
