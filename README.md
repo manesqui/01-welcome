@@ -15,6 +15,9 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
 4. There is a 1000-digit number, below.  If you multiply five consecutive digits, the largest value you can find is **XX**.  Multiplying 12 consecutive digits, what is the largest product you can find?
 5. Pythagorean triples have the property _a² + b² = c²_.  For instance the familiar 3, 4, 5 triangle has _3² + 4² = 9 + 16 = 25 = 5²_.  There is one pythagorean triple for which _a + b + c = 1000_.  Find the product _a × b × c_.
 6. Within _hw1_support.py_, you will find a list of 80 50-digit numbers.  Find their sum.
+7. Find the sum of the digits in _2⁸⁶⁵_.
+
+When you're all done, commit and push the code.  Just make sure it's in before Tuesday October 4th at 1:30am!
 
 ### Helpful Readings
 * Python: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official [Python Tutorial](https://docs.python.org/3/tutorial/index.html).
