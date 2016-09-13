@@ -23,7 +23,7 @@
 * "License Agreement" → Agree to the terms and conditions.
 * "Select Installation Type" → Just Me (recommended).
 * "Choose Install Location" → Default is probably fine.  Make a note of where it goes.  In my case:
-   * C:\cygwin\home\<YOUR_USER_ID>\Continuum\Anaconda3
+   * C:\cygwin\home\\<YOUR_USER_ID>\Continuum\Anaconda3
 * "Advanced Installation Options" → just accept. "Install."  (Let it go.)
 * Learn about Anaconda cloud only if you feel like it (no).
 
