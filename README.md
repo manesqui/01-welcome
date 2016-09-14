@@ -3,7 +3,7 @@
 ### Preliminaries/Setup
 * You will need to have a 'Terminal' set up on your computer.  If you're running a Mac, it _is_ installed.  Just search for 'Terminal.'  If you have a Windows machine, you'll need to install cygwin.  Since the Windows install is a bit more finnicky, you can find additional instructions [here](windows_install_instructions.md). 
 * Get [Anaconda](https://www.continuum.io/downloads) fully set up on your computer.  If you now run your Terminal and type `python`, you should get a new command prompt, where you can test it out (`1 + 1`, `<Enter>`) and quit (`quit()` or `ctrl+D`).  Again -- Windows users please see the [additional instructions](windows_install_instructions.md).
-* Create a [student GitHub account](https://education.github.com/pack).  You will use this account to push (submit) all of your work.  You can then join this assignment, [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  You'll get an email telling you that the import is complete.  You can then go to whatever directory you want to work from, and issue ```git clone git@github.com:harris-ippp/hw-1-welcome-to-python-UserName.git```, to download the directory and get to work!
+* Create a [student GitHub account](https://education.github.com/pack).  You will use this account to push (submit) all of your work.  You can then join this assignment, [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  You'll get an email telling you that the import is complete.  You can then go to whatever directory you want to work from, and issue ```git clone git@github.com:harris-ippp/hw-1-welcome-to-python-UserName.git```, to download the directory.  Now `cd` into the director and get to work!
    * Next Monday, we'll discuss `git`, why we're using it (spoiler: everyone does), and how to do all of this from the command line.
 * I encourage you to use [Atom](atom.io) as a text editor for your first assignment; it provides syntax highlighting that you will find useful.  If you want, you can delete it when you're done.
 
@@ -18,7 +18,13 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
 6. Within _hw1_support.py_, you will find a list of 80 50-digit numbers.  Find their sum.
 7. Find the sum of the digits in _2⁸⁶⁵_.
 
-When you're all done, commit and push the code.  Just make sure it's in before Tuesday October 4th at 1:30am!
+When you're all done, commit and push the code:
+> `git add .  # add all of your files`</br>
+> `git status # check that all your modified files are listed`</br>
+> `git commit -m "your message here"`</br>
+> `git push`</br>
+
+Just make sure it's in before Tuesday October 4th at 1:30am!
 
 ### Helpful Readings
 * Python: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official [Python Tutorial](https://docs.python.org/3/tutorial/index.html).
