@@ -1,4 +1,7 @@
-# Installing Cygwin
+# Installing Cygwin 
+
+Please do this before the first class.
+
 * Go to https://cywgin.com/install.html
 * Download the 64-bit version (setup-x86_53.exe) and open it.
 * Click through the first setup window (Cygwin Setup).
