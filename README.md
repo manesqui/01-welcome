@@ -10,7 +10,7 @@
 ### Excitement and Exercises!
 There is a 'skeleton' for each of these, in the assignment that you've checked out.  Fill your code into the existing files.
 
-1. Find the 9th number that is a multiple of 4, 13, 14, 26, and 50.
+1. Find the 9th positive integer that is a multiple of 4, 13, 14, 26, and 50.
 2. Fibonacci numbers are defined by adding the previous two terms.  Starting with 1 and 1, that gives 1, 1, 2, 3, 5, 8, etc.  Find the sum of all Fibonnacci numbers divisible by 17 and below 1 billion.  (`while` and `if`, and `%`)
 3. Find the prime factors of 175832868806.  (Hint: first make a list of all the primes you'll need.)
 4. There is a 1000-digit number, below.  If you multiply five consecutive digits, the largest value you can find is **XX**.  Multiplying 12 consecutive digits, what is the largest product you can find?
