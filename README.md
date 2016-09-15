@@ -6,7 +6,9 @@
 * Create a [student GitHub account](https://education.github.com/pack).  You will use this account to push (submit) all of your work.  
   * If you are running Mac OS X 10.7 or 10.8, you may need to get your git from [Sourceforge](https://sourceforge.net/p/git-osx-installer/activity/?page=0&limit=100#57cc86a334309d5c609e9fc8); search for version git-2.3.5-intel-universal-snow-leopard.dmg.
 * You can then join this assignment [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  You'll get an email telling you that the import is complete.  
-  * Go to whatever directory you want to work from, and issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git```, to download the directory.  Now `cd` into the director and get to work!
+  * Open the Terminal and navigate (`cd`) to whatever directory (folder) you want to work from.  It's up to you -- just as you'd save the documents for any other class.
+  * Issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git```, to download the directory.
+  * Now `cd` into the directory and get to work!
   * Next Monday, we'll discuss `git`, why we're using it (spoiler: everyone does), and how to do all of this from the command line.
 * I encourage you to use [Atom](atom.io) as a text editor for your first assignment; it provides syntax highlighting that you will find useful.  The [Download](atom.io) and installation should be trivial.  If you want, you can delete it when you're done.
   * Atom requires OS X 10.8 or later.  For 10.6 or 10.7, try Sublime or TextWrangler ([4.5.12](http://www.barebones.com/support/textwrangler/updates.html)).
