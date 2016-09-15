@@ -9,7 +9,7 @@
   * Go to whatever directory you want to work from, and issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git```, to download the directory.  Now `cd` into the director and get to work!
   * Next Monday, we'll discuss `git`, why we're using it (spoiler: everyone does), and how to do all of this from the command line.
 * I encourage you to use [Atom](atom.io) as a text editor for your first assignment; it provides syntax highlighting that you will find useful.  The [Download](atom.io) and installation should be trivial.  If you want, you can delete it when you're done.
-  * Atom requires OS X 10.8 or later.  For 10.6 or 10.7, try Sublime or TextWrangler.
+  * Atom requires OS X 10.8 or later.  For 10.6 or 10.7, try Sublime or TextWrangler ([4.5.12](http://www.barebones.com/support/textwrangler/updates.html)).
 
 ### Excitement and Exercises!
 There is a 'skeleton' for each of these, in the assignment that you've checked out.  The answers are also all there.  It's up to you to calculate those answers.  Fill your code into the existing files, as indicated.
