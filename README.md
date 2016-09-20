@@ -5,15 +5,10 @@ This assignment is due Tuesday October 3 at 1:30am.  A computer will collect it 
 ### Preliminaries/Setup
 Please see the [preliminary instructions](preliminaries.md) for running the terminal, python, and a text editor.
 
-* Create a [student GitHub account](https://education.github.com/pack), or just a standard GitHub account.  You will use this account to push (submit) all of your work.  Download and install [git](https://git-scm.com/downloads).
-  * If you are running Mac OS X 10.7 or 10.8, you may need to get your git from [Sourceforge](https://sourceforge.net/p/git-osx-installer/activity/?page=0&limit=100#57cc86a334309d5c609e9fc8); search for version git-2.3.5-intel-universal-snow-leopard.dmg.  If you did the Window Cygwin setup, it should have included git.
-  * You will probably have to 'create an ssh key for your account.'  This is just the way that the git encrypts communication; `ssh` (secure shell) is the standard way that we make secure connections from the command line.  Follow the instructions to [generate a new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) and [add it to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).  By providing the `id_rsa.pub` to GitHub, you're permanently telling it the call and response (Marco/Polo) so that it knows you're computer is _you_.
-* You can then join this assignment [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  You'll get an email telling you that the import is complete.
-  * Open the Terminal and navigate (`cd`) to whatever directory (folder) you want to work from.  The choice of directory is up to you -- just as you'd save the documents for any other class.
-  * Issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git```, to download the directory.
-  * Now `cd` into the directory and get to work!
-  * Next Monday, we'll discuss `git`, why we're using it (spoiler: everyone does), and how to do all of this from the command line.  If you have trouble submitting before then, that's OK.  The homework is due on Tuesday.
-
+You can then join this assignment [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  You'll get an email telling you that the import is complete.
+* Open the Terminal and navigate (`cd`) to whatever directory (folder) you want to work from.  The choice of directory is up to you -- just as you'd save the documents for any other class.
+* Issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git```, to download the directory.
+* Now `cd` into the directory and get to work!
 
 ### Excitement and Exercises!
 There is a 'skeleton' for each of these, in the assignment that you've checked out.  The answers are also all there.  It's up to you to calculate those answers.  Fill your code into the existing files, as indicated.
