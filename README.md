@@ -1,6 +1,6 @@
-# Assignment 1: Welcome to Python 
+# Assignment 1: Welcome to the Command Line 
 
-This assignment is due Tuesday October 3 at 1:30am.  A computer will collect it -- not me.  So don't be late!
+This assignment is due Wednesday October 5 at 1:30am.  A computer will collect it -- not me.  So don't be late!
 
 ### Preliminaries/Setup
 Please see the [preliminary instructions](preliminaries.md) for running the terminal, python, and a text editor.
