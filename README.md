@@ -16,8 +16,8 @@ In class, we played with the city salaries file.  That file, `salaries.csv`, is 
 
 * Go to the data portal for the City of Chicago, and navigate to "Crimes - 2001 to present"
   * You can find it here: https://data.cityofchicago.org/view/5cd6-ry5g
-* We'll look at the last three full years of data, 2013-2015.  Highlight it as shown.
-* Now click on "Export." Then under "Rows as CSV," select "Current Filter (843,719 rows)".  Then "Download."  It's about 200 MB, so ... wait!
+* We'll look at the last three full years of data, 2013-2015.  Highlight it as shown in the picture below.
+* Now click on "Export." Then under "Rows as CSV," select "Current Filter (843,719 rows)".  Then "Download" (see second picture).  It's about 200 MB, so ... wait!
 * (Yes, there are neat tools for doing your homework, on the website.  But we'll start from the beginning and go further.
 * If this whole data grab is not working, just click this [link](https://data.cityofchicago.org/api/views/6zsd-86xi/rows.csv?accessType=DOWNLOAD&bom=true&query=select+*+where+%60date%60+%3E%3D+%272013-01-01T00%3A00%3A00%27+AND+%60date%60+%3C+%272016-01-01T00%3A00%3A00%27).
 * Move this file to your homework directory, naming it as you like (I call mine chicago_crime.csv).
@@ -60,3 +60,10 @@ Just make sure it's in before Tuesday October 4th at 1:30am!
 ### Suggested Readings
 * Data and Technology in Government: [Innovative State](https://smile.amazon.com/Innovative-State-Aneesh-Chopra/dp/0802121349/) (Aneesh Chopra), and [The Responsive City](https://smile.amazon.com/Responsive-City-Communities-Data-Smart-Governance-ebook/dp/B00MQTIA3M/) (Stephen Goldsmith and Susan Crawford).
 
+
+
+
+### Pictures for Data Portal
+
+![Select Range](img/select_2013-2015.png)
+![Export Crime](img/export_crime.png)
