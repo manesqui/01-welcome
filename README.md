@@ -12,7 +12,13 @@ You can then join this assignment [here](https://classroom.github.com/classrooms
 
 ## Downloading some data.
 
-In class, we played with the city salaries file.  That file, `salaries.csv`, is already in the homework skeleton that you've checked out.  Let's also grab some crime data.
+In class, we played with the city salaries file.  You can re-retrieve that file via:
+
+```
+curl data.cityofchicago.org/api/views/xzkq-xp2w/rows.csv -s -o salaries.csv
+```
+
+Let's also grab some crime data.
 
 * Go to the data portal for the City of Chicago, and navigate to "Crimes - 2001 to present"
   * You can find it here: https://data.cityofchicago.org/view/5cd6-ry5g
@@ -46,11 +52,12 @@ Based on the 2013-2015 data:
 (Apologies, I realized after-the-fact that this may be a bit dark.)
 
 When you're all done, commit and push the code:
-> `git add .  # add all of your files`</br>
-> `git status # check that all your modified files are listed`</br>
-> `git commit -m "phewff, all done!"`</br>
-> `git push`</br>
-
+```
+git add .  # add all of your files
+git status # check that all your modified files are listed
+git commit -m "phewff, all done!"
+git push
+```
 Just make sure it's in before Tuesday October 4th at 1:30am!
 
 ### Helpful Readings
