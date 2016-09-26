@@ -23,28 +23,29 @@ cat murder_dates.txt | \
     # use sed to find minutes and seconds, and remove them.
     cat | \
 
-    # choose out only the times -- the 2nd field, delimited by spaces.
+    # cut out only the times -- the 2nd field, delimited by spaces.
     cat | \
 
     # we'll sort it, so we want 12AM to come before 01AM
     # use sed to replace 12 with 00
     cat | \
 
-    # sort it and count the results
+    # sort it and count (uniq) the results
     # (try not sorting too -- what goes wrong.)
     cat | \
 
-    # sort and grab the worst hour
+    # resort based on the frequency, 
+    # and print the worst one.
     cat
 
 
 echo "Worst month for murders."
 cat murder_dates.txt | \
 
-    # slice "/" to grab the month (1st field)
+    # cut, delimiting on "/" to grab the month (1st field)
     cat | \
       
-    # sort them, then count.
+    # sort them, then count (uniq -c)
     cat
 
 

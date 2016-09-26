@@ -4,7 +4,7 @@
 echo "Police Officers in Chicago"
 cat salaries.csv | \
 
-    # look for police officers
+    # grep for police officers
     cat | \
 
     # count 'em with wc!
