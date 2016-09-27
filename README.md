@@ -5,7 +5,7 @@ This assignment is due Wednesday October 5 at 1:30am.  A computer will collect i
 ### Preliminaries/Setup
 Please see the [preliminary instructions](preliminaries.md) for running the terminal, python, and a text editor.
 
-You can then join this assignment [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  You'll get an email telling you that the import is complete.
+You can then join this assignment [here](https://classroom.github.com/assignment-invitations/8cfa1521ab98e0dfb7341771721f793b).  You'll get an email telling you that the import is complete.
 * Open the Terminal and navigate (`cd`) to whatever directory (folder) you want to work from.  The choice of directory is up to you -- just as you'd save the documents for any other class.
 * Issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git``` (replacing `Username` by your GitHub user name), to download the directory.
 * Now `cd` into the directory and get to work!
