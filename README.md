@@ -23,7 +23,7 @@ Let's also grab some crime data.
 * Go to the data portal for the City of Chicago, and navigate to "Crimes - 2001 to present"
   * You can find it here: https://data.cityofchicago.org/view/5cd6-ry5g
 * We'll look at the last three full years of data, 2013-2015.  Highlight it as shown in the picture below.
-* Now click on "Export." Then under "Rows as CSV," select "Current Filter (843,719 rows)".  Then "Download" (see second picture).  It's about 200 MB, so ... wait!
+* Now click on "Export." Then under "Rows as CSV," select "Current Filter (843,726 rows)".  (Don't worry if it goes up by a few, before the assignment is over: it seems not to be totally stable.)  Then "Download" (see second picture).  It's about 200 MB, so ... wait!
 * (Yes, there are neat tools for doing your homework, on the website.  But we'll start from the beginning and go further.
 * If this whole data grab is not working, just click this [link](https://data.cityofchicago.org/api/views/6zsd-86xi/rows.csv?accessType=DOWNLOAD&bom=true&query=select+*+where+%60date%60+%3E%3D+%272013-01-01T00%3A00%3A00%27+AND+%60date%60+%3C+%272016-01-01T00%3A00%3A00%27).
 * Move this file to your homework directory, naming it as you like (I call mine chicago_crime.csv).
