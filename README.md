@@ -5,14 +5,20 @@ This assignment is due Wednesday October 5 at 1:30am.  A computer will collect i
 ### Preliminaries/Setup
 Please see the [preliminary instructions](preliminaries.md) for running the terminal, python, and a text editor.
 
-You can then join this assignment [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  You'll get an email telling you that the import is complete.
+You can then join this assignment [here](https://classroom.github.com/assignment-invitations/8cfa1521ab98e0dfb7341771721f793b).  You'll get an email telling you that the import is complete.
 * Open the Terminal and navigate (`cd`) to whatever directory (folder) you want to work from.  The choice of directory is up to you -- just as you'd save the documents for any other class.
-* Issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git```, to download the directory.
+* Issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git``` (replacing `Username` by your GitHub user name), to download the directory.
 * Now `cd` into the directory and get to work!
 
 ## Downloading some data.
 
-In class, we played with the city salaries file.  That file, `salaries.csv`, is already in the homework skeleton that you've checked out.  Let's also grab some crime data.
+In class, we played with the city salaries file.  You can re-retrieve that file via:
+
+```
+curl data.cityofchicago.org/api/views/xzkq-xp2w/rows.csv -s -o salaries.csv
+```
+
+Let's also grab some crime data.
 
 * Go to the data portal for the City of Chicago, and navigate to "Crimes - 2001 to present"
   * You can find it here: https://data.cityofchicago.org/view/5cd6-ry5g
@@ -46,11 +52,12 @@ Based on the 2013-2015 data:
 (Apologies, I realized after-the-fact that this may be a bit dark.)
 
 When you're all done, commit and push the code:
-> `git add .  # add all of your files`</br>
-> `git status # check that all your modified files are listed`</br>
-> `git commit -m "phewff, all done!"`</br>
-> `git push`</br>
-
+```
+git add .  # add all of your files
+git status # check that all your modified files are listed
+git commit -m "phewff, all done!"
+git push
+```
 Just make sure it's in before Tuesday October 4th at 1:30am!
 
 ### Helpful Readings
