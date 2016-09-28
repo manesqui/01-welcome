@@ -5,17 +5,17 @@ echo "Most common police officer names."
 cat salaries.csv | 
 
     # grep police officers.
-    cat | \
+    cat | 
     
     # cut out their first names
-    cat | \
+    cat | 
     
     # get rid of quotes and leading spaces
     # sed find and replace
-    cat | \
+    cat | 
       
     # choose the first field: cut
-    cat | \
+    cat | 
     
     # do some sorting magic (sort/uniq) 
     # to pull off the top 40 (head)

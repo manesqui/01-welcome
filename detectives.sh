@@ -2,11 +2,9 @@
 
 # How many police detectives are there?
 echo "Police Detectives in Chicago"
-cat salaries.csv | \
+cat salaries.csv | 
 
-    # grep for employees 'assigned as detective'
-    cat | \
+    cat | # grep for employees 'assigned as detective'
 
-    # count 'em with wc!
-    cat
+    cat   # count 'em with wc!
 

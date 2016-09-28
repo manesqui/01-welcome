@@ -2,10 +2,10 @@
 
 # How many police officers are there?
 echo "Police Officers in Chicago"
-cat salaries.csv | \
+cat salaries.csv | 
 
     # grep for police officers
-    cat | \
+    cat | 
 
     # count 'em with wc!
     cat
