@@ -62,7 +62,7 @@ git status # check that all your modified files are listed
 git commit -m "phewff, all done!"
 git push
 ```
-Just make sure it's in before Tuesday October 4th at 1:30am!
+Just make sure it's in before Wednesday October 5th at 1:30am!
 
 ### Helpful Readings
 * Python: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official [Python Tutorial](https://docs.python.org/3/tutorial/index.html).
