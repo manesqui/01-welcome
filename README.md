@@ -32,7 +32,7 @@ We'll soon learn to grab these resources programmatically.  But it's already a s
 
 ## Most Excellent Exercises!
 
-You now have chicago_crime.csv and salaries.csv in your homework directory.  There are two scripts, `employees.sh` and `crime.sh`, which have structures for each of the questions below, which you'll fill out.  Follow one step at a time, on each line, to complete the scripts.  When you're done, fill in SOLUTIONS, as directed.
+You now have chicago_crime.csv and salaries.csv in your homework directory.  There are several scripts, `police_officers.sh`, `police_names.sh`, `detectives.sh`, and `homicide.sh`.  These have structures for each of the questions below, which you'll fill out.  Follow one step at a time, replacing the `cat` on each line, to complete the scripts.  When you're done, fill in SOLUTIONS, as directed.
 
 ### Police Officers of the City of Chicago
 
