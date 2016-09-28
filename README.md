@@ -53,7 +53,7 @@ Based on the 2013-2015 data:
 
 When you're all done, commit and push the code:
 ```
-git add .  # add all of your files
+git add SOLUTIONS *sh  # add the relevant files
 git status # check that all your modified files are listed
 git commit -m "phewff, all done!"
 git push
