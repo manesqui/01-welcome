@@ -1,4 +1,4 @@
-# Assignment 1: Welcome to the Command Line
+# Assignment 1: Welcome to the Command Line   
 
 This assignment is due Wednesday October 5 at 1:30am.  A computer will collect it -- not me.  So don't be late!!
 
