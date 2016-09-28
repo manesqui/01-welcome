@@ -34,6 +34,10 @@ We'll soon learn to grab these resources programmatically.  But it's already a s
 
 You now have chicago_crime.csv and salaries.csv in your homework directory.  There are several scripts, `police_officers.sh`, `police_names.sh`, `detectives.sh`, and `homicide.sh`.  These have structures for each of the questions below, which you'll fill out.  Follow one step at a time, replacing the `cat` on each line, to complete the scripts.  When you're done, fill in SOLUTIONS, as directed.
 
+### Highest Salaries
+
+* The question you already answered in class: who makes the most?
+
 ### Police Officers of the City of Chicago
 
 * How many police officers are there in Chicago?
