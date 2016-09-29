@@ -28,7 +28,7 @@ Bonus: if you need to install additional packages, you can just run the exact sa
 * "License Agreement" → Agree to the terms and conditions.
 * "Select Installation Type" → Just Me (recommended).
 * "Choose Install Location" → Default is probably fine.  *Make a note of where it goes.*  In my case:
-   * C:\cygwin64\home\\\<YOUR_USER_ID\>\Continuum\Anaconda3  (\<YOUR_USER_ID\> is actually your user id, not that string.)
+   * `C:\cygwin64\home\<YOUR_USER_ID>\Continuum\Anaconda3`  (`<YOUR_USER_ID>` is actually your user id, not that string.)
 * "Advanced Installation Options" → just accept. "Install."  (Let it go.)
 * Learn about Anaconda cloud only if you feel like it (no).
 * Now, open up cygwin.  You will be at /home/\<YOUR_USER_ID\>/.  Type `which python`.  It will probably _not_ be the one you just installed.
