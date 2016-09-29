@@ -28,11 +28,14 @@ Bonus: if you need to install additional packages, you can just run the exact sa
 * "License Agreement" → Agree to the terms and conditions.
 * "Select Installation Type" → Just Me (recommended).
 * "Choose Install Location" → Default is probably fine.  *Make a note of where it goes.*  In my case:
-   * C:\cygwin64\home\\\<YOUR_USER_ID\>\Continuum\Anaconda3  (<YOUR_USER_ID> is actually your user id, not that string.)
+   * C:\cygwin64\home\\\<YOUR_USER_ID\>\Continuum\Anaconda3  (\<YOUR_USER_ID\> is actually your user id, not that string.)
 * "Advanced Installation Options" → just accept. "Install."  (Let it go.)
 * Learn about Anaconda cloud only if you feel like it (no).
-* Now, open up cygwin.  You will be at /home/<YOUR_USER_ID>/.  Type `which python`.  It will probably _not_ be the one you just installed.  Type (with an appropriate substitution for the path) `echo 'export PATH=/the/path/to/your/Continuum/Anaconda3:$PATH' >> ~/.bashrc`.
-   * What is this doing?  `echo` just 'parrots' the rest of the line.  `export PATH` is telling the system where to look for programs.  In this case, you're adding `.../Anaconda3` to the existing `$PATH`.  You are then placing these (`>>`) at the end of your preferences file, `~/.bashrc`.  
+* Now, open up cygwin.  You will be at /home/\<YOUR_USER_ID\>/.  Type `which python`.  It will probably _not_ be the one you just installed.
+   * Using Atom, open up the file `.bashrc`, which should be in `/home/UserName/` in your cygwin directory: in my case, `C:\cygwin\home\jsaxon\.bashrc`.
+   * At the end of this fille, add and save (with an appropriate substitution for the path)</br>
+      `export PATH=/cygdrive/c/the/path/to/your/Continuum/Anaconda3:$PATH`
+   * What is this doing?  The `.bashrc` file runs every time you open up a terminal, to initialize your environment.  We want to modify that initialization.  The `PATH` is the list of places, separated by colons, where the computer looks for programs.  Your computer may have found `python` before, if there was some copy of `python` on your machine.  But you want it to first find (and therefore _use_) this new copy from Anaconda, which has these nifty doodads that we'll use later in the course.  By running `export PATH=...`, you are updating your `PATH` accordingly.  
 * Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.5.2 |Anaconda 4.1.1 ..."), and a Jupyter notebook with `./Continuum/Anaconda3/Scripts/jupyter-notebook.exe` (return).
 
 # Atom Install.
